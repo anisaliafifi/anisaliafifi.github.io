@@ -1,1 +1,164 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+        *{
+            margin:0px;   
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+             
+        }
+        div {
+            float:left;
+        }
+        section {
+            width:600px;
+            margin: 0px auto;
+        }
+        div#top{
+            width:100%;
+            height:100px;
+            display:block;
+            background:green;
+        }
+        div#left{
+            width:30%;
+            height:300px;
+            display:block;
+            background:red;
+            box-sizing:border-box;
+            position:relative;
+            top:10px;
+        }
+        div#right{
+            width:70%;
+            height:300px;
+            display:inline-block;
+            background:yellow;
+            box-sizing:border-box;
+            position:relative;
+            top:10px;
+            padding:30px;
+            text-align:center;
+        }
+        div#bottom{
+            width:100%;
+            height:50px;
+            display:block;
+            background:blue;
+            position:relative;
+            top:200px;
+        }
+        #chicken{
+            height:70px;
+            width:auto;
+            position:relative;
+            top:15px;
+            left:20px;
+        }
+        .button{
+            width:80px;
+            height:20px;
+            background:orange;
+            position:relative;
+            top:40px;
+            float:right;
+            display:block;
+            border-radius:15px 0px;
+            margin-right:40px;
+            text-align:center;
+            font-size:14px;
+        }
+        .button:hover{
+            background:aquamarine;
+        }
+        .panel{
+            width:100px;
+            height:160px;
+            background:purple;
+            position:relative;
+            top:-175px;
+            float:right;
+            display:block;
+            border-radius:15px 0px;
+            margin-right:40px;
+        }
+        .xx{
+            width:20px;
+            height:20px;
+            background:grey;
+            position:relative;
+            float:right;
+            display:block;
+            border-radius:10px 10px;
+            margin-right:-10px;
+            margin-top:-8px;
+        }
+        .xxx{
+            width:80px;
+            height:20px;
+            background:grey;
+            position:relative;
+            float:right;s
+            display:block;
+            border-radius:3px 0px;
+            margin-right:0px;
+            margin-top:145px;
+        }
+        .xx:hover{
+            background:red;
+        }
+        .xxx:hover{
+            background-color:firebrick;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <div id="top" class="base">
+        <img src="http://38.media.tumblr.com/8d7f144060bd9093ad5ab1fca4fa5ba8/tumblr_n5ex683R041qm7j1ao1_500.gif" id="chicken"/>
+        <div id="b1" class="button"><em>KFC</em></div>
+        <div id="b2" class="button"><em>Nando's</em></div>  
+        <div id="b3" class="button"><em>Roger's</em></div> 
+    </div>
+    <div id="left" class="base">
+        <p style="text-align:left; padding:20px 0px 0px 20px;">This is a <b>list</b>:</p>
+        <ul style="text-align:center; padding:30px;">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+    <div id="right" class="base"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+    <div id="bottom" class="base">
+        <div id="pan1" class="panel">
+            <div id="x1" class="xx">
+                <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Red_X_Freehand.svg/1024px-Red_X_Freehand.svg.png" style="width:10px; height:auto; position:relative; top:0px; left:5px"/>
+            </div>
+            <div id="x1" class="xxx"></div>
+        </div>
+        <div id="pan2" class="panel">
+            <div id="x2" class="xx">
+                <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Red_X_Freehand.svg/1024px-Red_X_Freehand.svg.png" style="width:10px; height:auto; position:relative; top:0px; left:5px" />
+            </div>
+            <div id="x2" class="xxx"></div>
+        </div>
+        <div id="pan3" class="panel">
+            <div id="x3" class="xx">
+                <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Red_X_Freehand.svg/1024px-Red_X_Freehand.svg.png" style="width:10px; height:auto; position:relative; top:0px; left:5px" />
+            </div>
+            <div id="x3" class="xxx"></div>
+        </div>
+        <div id="pan4" class="panel">
+            <div id="x4" class="xx">
+                <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Red_X_Freehand.svg/1024px-Red_X_Freehand.svg.png" style="width:10px; height:auto; position:relative; top:0px; left:5px" />
+            </div>
+            <div id="x4" class="xxx"></div>
+        </div>
+<!-- - -->
+    </section>
+</body>
+</html>
