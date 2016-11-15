@@ -1,0 +1,269 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-family: @import url('https://fonts.googleapis.com/css?family=Lato:100,400,700,900');
+}
+
+#home{
+	background: url(../images/homebg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 32px;
+	text-align: center;
+}
+
+#home .container{
+	width: 200px 0;
+	padding: 200px;
+}
+
+#home h1{
+	color: #fff;
+	font-weight: 100;
+	margin-bottom: 40px;
+}
+
+#home h3{
+	color: #fff;
+	font-weight: 100;
+	font-size: 24px;
+}
+
+#about{
+	background: url(../images/aboutbg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 32px;
+	text-align: center;
+}
+
+#about .container{
+	width: 200px 0;
+	padding: 200px;
+}
+
+#about h1{
+	color: #fff;
+	font-size: 32px;
+	font-weight: 100;
+	margin-bottom: 0px;
+}
+
+#about p{
+	color: #fff;
+	font-weight: 100;
+	font-size: 24px;
+}
+
+#about hr{
+	color: #fff;
+	border-width: 10%;
+	text-align: center;
+}
+
+#services{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: left;
+}
+
+#services h3{
+	color: #873fb5;
+	font-size: 24px;
+}
+
+#services .service-header{
+	padding: 30px 0;
+}
+
+#services i{
+	font-size: 50px;
+	border-right: 1px solid #873fb5;
+	padding-right: 20px;
+	float: left;
+	color: grey;
+}
+
+#services .service-title{
+	display: inline-block;
+	padding-left: 20px;
+	margin-top: -25px;
+}
+
+#services h2{
+	font-size: 24px;
+	font-weight: 900;
+}
+
+#services h4{
+	color: #873fb5;
+	margin-top: -5px;
+	font-weight: 400;
+}
+
+#services p{
+	margin-top: 7px;
+	font-size: 10px;
+}
+
+#services .coll{
+	padding-bottom: 20px;
+}
+
+#skills{
+	background: url(../images/skillsbg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 467px;
+}
+
+#skills .skill-left{
+	padding: 100px 0;
+}
+
+#skills h2{
+	color: #fff;
+	font-weight: 900;
+}
+
+#skills h4{
+	color: #fff;
+}
+
+#skills p{
+	color: #fff;
+	padding: 20px 0;
+	font-weight: 100;
+}
+
+#skills .button1{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+
+#skills .button2{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 12px;
+	padding-bottom: 5px;
+}
+
+#skills .button1:hover{
+	color: #873fb5;
+	border-bottom: 3px solid #873fb5;
+}
+
+#skills .button2:hover{
+	color: #873fb5;
+	border-bottom: 3px solid #873fb5;
+}
+
+#skills .skill-right{
+	padding: 120px 40px;
+}
+
+#skills .progress{
+	height: 30px;
+}
+
+#skills .progress-bar{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d4296+0,8d4563+100 */
+background: #7d4296; /* Old browsers */
+background: -moz-linear-gradient(left,  #7d4296 0%, #8d4563 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #7d4296 0%,#8d4563 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #7d4296 0%,#8d4563 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d4296', endColorstr='#8d4563',GradientType=1 ); /* IE6-9 */
+}
+
+#portfolio{
+    text-align: center;
+    font-size: 32px;
+}
+
+#portfolio .portfolio-header{
+	padding: 30px 0;
+	color: #873fb5;
+}
+
+#portfolio .col-md-4{
+	padding: 0;
+}
+
+#portfolio img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+#portfolio div hr{
+	color: #873fb5;
+	text-align: center;
+	display: block;
+    margin: 0.5em 300px;
+    border-style: inset;
+    border-width: 10px;
+}
+
+#thumbnail{
+	color: #fff;
+}
+
+#thumbnail .code{
+	background: url(../images/thumbnail.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 30px;
+}
+
+#thumbnail .file{
+	background: url(../images/thumbnail.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 30px;
+}
+
+#thumbnail .user{
+	background: url(../images/thumbnail.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 30px;
+}
+
+#thumbnail .thumb{
+	background: url(../images/thumbnail.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 30px;
+}
+
+#profile{
+	background: url(../images/quotesbg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+}
+
+#profile img{
+	height: 100px;
+	width: auto;
+}
+
+#profile .container{
+	width: 200px 0;
+	padding: 200px;
+}
+
+#contact{
+	
+}
